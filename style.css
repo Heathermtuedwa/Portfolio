@@ -411,10 +411,55 @@ img {
   @media(min-width: 40rem) {
     &::before {
       padding-top: 66.6%; 
-    }
+   width: 400px;  }
   }
-  width: 400px;
+ 
 }
+
+
+/* test */
+@media screen and (min-width: 300px){
+         /* .containerH, .containerM{
+            width: auto;
+            height: auto;
+        }
+        .card{
+            width: 150px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card__image--calculator {
+            background-image: url(https://i.postimg.cc/4dvNSG2m/student-calculator.jpg);
+            width: auto;
+            height: auto;
+        }  */
+     
+      }
+
+      .card__image--logo {
+        background-image: url(https://i.postimg.cc/504ZfMNH/Logo.jpg);
+      }
+      
+      .card__image--keyboard {
+        background-image: url(https://i.postimg.cc/gk7d4rcg/Keyboard-2.png);
+      }
+      
+      .card__image--eCommerce {
+        background-image: url(https://i.postimg.cc/90SSPRPT/e-Commerce.png);
+      }
+      .card__image--MobiCare {
+        background-image: url(https://i.postimg.cc/T1FJCKYv/mobicare-logo.pngg);
+      }
+    
+      .card__image--MobiCare {
+        background-image: url(/Pictures/calculator\ \(1\).png);
+      }
+
+
+
+/* test end */
 
 .card__image--calculator {
   background-image: url(https://i.postimg.cc/4dvNSG2m/student-calculator.jpg);
